@@ -1,0 +1,7 @@
+<ion-view view-title="Projects">
+  <ion-content>
+    <ion-item ng-repeat="project in projects" ui-sref="app.projectDetail({id:project.id})">
+    {{project.name}}
+	</ion-item>
+  </ion-content>
+</ion-view>

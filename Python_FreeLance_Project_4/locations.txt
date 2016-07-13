@@ -1,0 +1,49 @@
+LOCATION -1
+0
+That way is blocked.
+That way is blocked.
+END
+
+LOCATION 1
+0
+You are on the first floor of the UTM Library. There is an empty study room to the East and an exit from the library to the South.
+You are on the first floor of the UTM Library. It's usually crowded at this time of the day, but today it's eerily quiet.
+Only a few students are studying inside one of the study rooms. You better not disturb them. A librarian stands near the
+service desk, looking bored and sleepy. There is an empty study room to the East and an exit from the library to the South.
+END
+
+LOCATION 2
+0
+You are in a study room that isn't occupied by any other students. The only way out of here is back through the western entrance.
+You are in a study room that isn't occupied by any other students. The only way out of here is back through the western entrance.
+There are some items laying around the room. Maybe you should go and check them out?
+END
+
+LOCATION 3
+0
+You are outside of the library standing in the center of campus. The only way to go is south to leave the campus.
+You are outside of the library standing in the center of campus. There are students walking and relaxing across the campus. Some people are eating
+food while others are working on homework. The only way to go is south to leave the campus.
+END
+
+LOCATION 4
+0
+You are standing inside of the Starbucks, sitting at the same table you were at earlier this morning. The only place to go is east; outside.
+You are standing inside of the Starbucks, sitting at the same table you were at earlier this morning.
+You see some of your friends sitting in a corner, drinking coffee. You'd get coffee yourself but you left your wallet at home. The only place to go is east; outside.
+END
+
+LOCATION 5
+0
+You are standing inside of your dorm room. The only way out is north.
+You are standing inside of your dorm room now that you've used the key to get in. You're bed isn't made and there are things all over the place.
+The only way out is north.
+END
+
+LOCATION 6
+0
+You are standing outside of the campus. There is a Starbucks to the west that you were at earlier this morning. There is also your residence housing to the south. You'll probably need a key to get inside though.
+You are standing outside of the campus along the road. There are people walking along the sidewalk and cars driving by.
+There is a Starbucks to the west that you were at earlier this morning. There is also your
+residence housing to the south. You'll probably need your key to get inside though.
+END

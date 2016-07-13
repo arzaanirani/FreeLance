@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior" tools:showIn="@layout/app_bar_leaderboard"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Leaderboard"
+        android:id="@+id/lblLeaderboard"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1. Blue Jays"
+        android:id="@+id/txtBlueJays"
+        android:textSize="30dp"
+        android:layout_below="@+id/lblLeaderboard"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2. Maple Leafs"
+        android:id="@+id/txtMapleLeafs"
+        android:textSize="30dp"
+        android:layout_below="@+id/txtBlueJays"
+        android:layout_alignLeft="@+id/txtBlueJays"
+        android:layout_alignStart="@+id/txtBlueJays" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="3. Raptors"
+        android:id="@+id/txtRaptors"
+        android:textSize="30dp"
+        android:layout_below="@+id/txtMapleLeafs"
+        android:layout_alignLeft="@+id/txtMapleLeafs"
+        android:layout_alignStart="@+id/txtMapleLeafs" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="4. Argos"
+        android:id="@+id/txtArgos"
+        android:textSize="30dp"
+        android:layout_below="@+id/txtRaptors"
+        android:layout_alignLeft="@+id/txtRaptors"
+        android:layout_alignStart="@+id/txtRaptors" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="5. FC"
+        android:id="@+id/txtFC"
+        android:textSize="30dp"
+        android:layout_below="@+id/txtArgos"
+        android:layout_alignLeft="@+id/txtArgos"
+        android:layout_alignStart="@+id/txtArgos" />
+</RelativeLayout>

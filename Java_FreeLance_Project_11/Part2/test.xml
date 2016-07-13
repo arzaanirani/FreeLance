@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph>
+   <node>
+      <id>1000</id>
+      <label>A</label>
+      <location>100.0,100.0</location>
+   </node>
+   <node>
+      <id>1001</id>
+      <label>B</label>
+      <location>400.0,300.0</location>
+   </node>
+   <node>
+      <id>1002</id>
+      <label>C</label>
+      <location>100.0,400.0</location>
+   </node>
+   <edge>
+      <head>1000</head>
+      <tail>1001</tail>
+   </edge>
+   <edge>
+      <head>1000</head>
+      <tail>1002</tail>
+   </edge>
+   <edge>
+      <head>1001</head>
+      <tail>1002</tail>
+   </edge>
+</graph>
